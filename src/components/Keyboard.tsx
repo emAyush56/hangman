@@ -10,12 +10,12 @@ function Keyboard() {
       {ALL_KEYS.map((row, rowId) => (
         <div
           key={rowId}
-          className="row flex gap-1.5 text-2xl sm:text-3xl font-semibold"
+          className="row flex gap-1.5 text-xl sm:text-2xl font-semibold"
         >
           {row.map((key, keyId) => (
             <div
               key={keyId}
-              className="rounded bg-gray-200 w-8 h-10 sm:w-10 sm:h-14 flex items-center justify-center active:scale-95 transition-all"
+              className="rounded uppercase bg-gray-200 w-8 h-10 sm:w-10 sm:h-14 flex items-center justify-center active:bg-gray-300 transition-all duration-75"
             >
               {key}
             </div>

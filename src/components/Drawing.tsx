@@ -44,8 +44,8 @@ function Drawing() {
       {LEG_RIGHT}
       {LEG_LEFT}
       <div className="h-10 w-[6px] bg-gray-800 absolute top-0 right-0" />
-      <div className="h-[6px] w-32 sm:w-40 bg-gray-800 ml-[109px]" />
-      <div className="h-96 w-[6px] bg-gray-800 ml-[109px]" />
+      <div className="h-[6px] w-28 sm:w-40 bg-gray-800 ml-[109px]" />
+      <div className="h-80 sm:h-96 w-[6px] bg-gray-800 ml-[109px]" />
       <div className="h-[6px] w-56 bg-gray-800" />
     </div>
   );
