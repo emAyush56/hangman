@@ -15,7 +15,7 @@ function Keyboard() {
           {row.map((key, keyId) => (
             <div
               key={keyId}
-              className="rounded uppercase bg-gray-200 w-8 h-10 sm:w-10 sm:h-14 flex items-center justify-center active:bg-gray-300 transition-all duration-75"
+              className="rounded uppercase bg-gray-200 w-8 h-10 sm:w-10 sm:h-14 flex items-center justify-center active:bg-gray-300"
             >
               {key}
             </div>

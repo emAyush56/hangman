@@ -12,7 +12,7 @@ function App() {
   const [guessedLetters, setGuessedLetters] = useState<string[]>([]);
 
   return (
-    <div className="text-gray-800 max-w-2xl flex flex-col gap-4 items-center mx-auto h-[100dvh]">
+    <div className="text-gray-800 max-w-2xl flex flex-col gap-4 items-center mx-auto h-screen">
       <header className="py-3 border-b w-full px-6 text-center font-serif font-bold uppercase text-xl">
         Hangman
       </header>
